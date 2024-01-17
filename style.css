@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: black;
+}
+nav{
+    color: aliceblue;
+    padding: 15px;
+
+}
+li , h1{
+   display: inline-block;
+}
+ul{
+    margin-left: 65%;
+    margin-top: 10px;
+}
+h1{
+    margin-left: 10%;
+    margin-top: 30px;
+    font-size: 45px;
+}
+li a {
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+    color: whitesmoke;
+}
+ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px;
+}
+.image{
+    width: 30%;
+    height: 60%;
+    right: 100px;
+    bottom: 0;
+    position:absolute ;
+}
+.image img {
+    position: absolute;
+    height:100%;
+    left:40%;
+    transform: translate(-50%);
+    bottom: 0;
+
+}
+.image:hover.profile{
+    left: 55%;
+    cursor: pointer;
+}
+
+.info{
+    color: aliceblue;
+    margin-left: 15%;
+    margin-bottom: 50%;
+    margin-top: 10%;
+    font-size: 25px;
+}
+.info h2{
+    font-size: 65px;
+    color: red;
+}
+.info h3{
+    letter-spacing: 2px;
+}
+#about{
+    color: aliceblue;
+}
+#about h2{
+    text-align: center;
+    font-size: 65px;
+    margin-bottom:10%;
+    margin-top: 30%;
+    color: red;
+}
+#about th h4{
+    font-size: 35px;
+    display: inline-block;
+}
+.about-btn img {
+    width: 500px;
+}
+.box{
+    border-color:whitesmoke;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    color: aliceblue;
+    width: 450px;
+    padding: 15px;
+}
+#skill{
+    text-align: center;
+}
+
+.box img{
+    width: 450px;
+}
+.box:hover{
+    background-color:rgb(69, 104, 16);
+}
+#contact{
+    color: aliceblue;
+ text-align: center;
+ margin-top: 10%;
+}
+    #contact h2{
+        padding: 45px;
+    }
+    
+.fa-brands:hover{
+    color:red;
+    cursor: pointer;
+}
+
+    
+
+    
